@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.8" type="plugin" group="tripblog" method="upgrade">
+    <name>PLG_TRIPBLOG_WATERMARKER</name>
+    <creationDate>Setpember 2019</creationDate>
+    <author>Ruslan Aliyev</author>
+    <authorEmail>ruslan_aliyev_@hotmail.com</authorEmail>
+    <authorUrl>https://github.com/atabegruslan</authorUrl>
+    <version>1.0.2</version>
+    <description>PLG_TRIPBLOG_WATERMARKER_DESCRIPTION</description>
+
+    <files>
+    	<folder>language</folder>
+        <filename plugin="watermarker">watermarker.php</filename>
+    </files>
+
+    <media folder="media">
+        <folder>plg_tripblog_watermarker</folder>
+    </media>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field
+                        name="stamp"
+                        type="media"
+                        label="PLG_TRIPBLOG_WATERMARKER_STAMP_LBL"
+                        description="PLG_TRIPBLOG_WATERMARKER_STAMP_DESC"
+                        class="inputbox"
+                        preview="tooltip"
+                        accept="image/jpeg,image/png"
+                />
+            </fieldset>
+        </fields>
+    </config>
+</extension>

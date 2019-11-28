@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="component" version="3.9" method="upgrade">
+	<name>COM_TRIPBLOG</name>
+	<creationDate>Setpember 2019</creationDate>
+	<author>Ruslan Aliyev</author>
+	<authorEmail>ruslan_aliyev_@hotmail.com</authorEmail>
+	<authorUrl>https://github.com/atabegruslan</authorUrl>
+	<version>1.3.1</version>
+	<description>COM_TRIPBLOG_DESCRIPTION</description>
+
+	<scriptfile>install.php</scriptfile>
+
+	<install folder="components/com_tripblog/admin">
+		<sql>
+			<file driver="mysql" charset="utf8">sql/install/mysql/install.sql</file>
+			<file driver="mysqli" charset="utf8">sql/install/mysql/install.sql</file>
+			<file driver="mysqli" charset="utf8">sql/install/mysql/data.sql</file>
+		</sql>
+	</install>
+	<uninstall folder="components/com_tripblog/admin">
+		<sql>
+			<file driver="mysql" charset="utf8">sql/install/mysql/uninstall.sql</file>
+			<file driver="mysqli" charset="utf8">sql/install/mysql/uninstall.sql</file>
+		</sql>
+	</uninstall>
+    <update folder="components/com_tripblog/admin">
+        <schemas>
+            <schemapath type="mysql">sql/updates/mysql</schemapath>
+            <schemapath type="mysqli">sql/updates/mysql</schemapath>
+        </schemas>
+        <php>
+            <path>updates</path>
+        </php>
+    </update>
+
+    <media folder="media">
+        <folder>com_tripblog</folder>
+    </media>
+
+	<files folder="components/com_tripblog/site">
+		<filename>index.html</filename>
+		<filename>tripblog.php</filename>
+		<filename>controller.php</filename>
+		<filename>router.php</filename>
+		<folder>views</folder>
+		<folder>models</folder>
+		<folder>controllers</folder>
+		<folder>language</folder>
+        <folder>layouts</folder>
+	</files>
+
+	<administration>
+		<menu view="tripblogs">COM_TRIPBLOG_VIEW_DEFAULT_TITLE</menu>
+		<submenu>
+			<menu link="option=com_tripblog&amp;view=tripblogs">COM_TRIPBLOG_TRIPBLOGS_VIEW_TITLE</menu>
+			<menu link="option=com_tripblog&amp;view=users">COM_TRIPBLOG_USERS_VIEW_TITLE</menu>
+		</submenu>
+
+		<files folder="components/com_tripblog/admin">
+			<filename>index.html</filename>
+			<filename>access.xml</filename>
+			<filename>config.xml</filename>
+			<filename>tripblog.php</filename>
+			<filename>controller.php</filename>
+			<folder>sql</folder>
+			<folder>tables</folder>
+			<folder>helpers</folder>
+			<folder>language</folder>
+			<folder>views</folder>
+			<folder>models</folder>
+			<folder>controllers</folder>
+        	<folder>layouts</folder>
+		</files>
+	</administration>
+
+    <!-- Libraries to install -->
+    <libraries>
+        <library name="tripblog" />
+    </libraries>
+
+    <!-- Plugins to install -->
+    <plugins>
+		<plugin name="tripblog" group="content" disabled="0" />
+		<plugin name="tripblog" group="extension" disabled="0" />
+		<plugin name="tripblog" group="system" disabled="0" />
+		<plugin name="watermarker" group="tripblog" disabled="0" />
+    </plugins>
+
+    <!-- Cli to install with the component -->
+    <cli>
+        <folder name="com_tripblog" folder="cli/com_tripblog" />
+    </cli>
+
+</extension>

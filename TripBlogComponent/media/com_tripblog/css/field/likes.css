@@ -1,0 +1,54 @@
+.likes {
+	z-index: 10;
+	opacity: 0;
+}
+
+i {
+	z-index: 5;
+}
+
+.likes_container {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+span {
+	position: relative;
+	display: inline-block;
+	padding: 5px;
+}
+
+span i, span input {
+	position: absolute;
+}
+
+.button_like {
+	padding: 1em 1.5em;
+	text-decoration: none;
+	border-radius: 10px;
+	border: 1px solid darkgray;
+}
+
+.button_like:hover {
+	cursor: pointer;
+}
+
+div.likes_box {
+	border: 1px solid black;
+	padding : 5px;
+}
+
+table.likes_table, table.likes_table th, table.likes_table td {
+	border: 1px solid darkgray;
+}
+
+table.likes_table th, table.likes_table td {
+	padding : 5px;
+	text-align: left;
+	vertical-align: bottom;
+}
+
+table.likes_table {
+	border-collapse: collapse;
+}

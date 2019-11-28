@@ -1,0 +1,6 @@
+{
+    "name": "lib_tripblog",
+    "require": {
+        "mpdf/mpdf": "7.1.9"
+    }
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<config>
+	<fieldset
+		name="user_configs"
+		label="COM_TRIPBLOG_CONFIG_USER_CONFIGS_LBL"
+		description="COM_TRIPBLOG_CONFIG_USER_CONFIGS_DESC">
+		<field
+			name="send_registration_email"
+			type="radio"
+			label="COM_TRIPBLOG_CONFIG_SEND_REGISTRATION_EMAIL_LBL"
+			description="COM_TRIPBLOG_CONFIG_SEND_REGISTRATION_EMAIL_DESC"
+			default="0">
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		<field
+			name="registration_need_recaptcha"
+			type="radio"
+			label="COM_TRIPBLOG_CONFIG_REGISTRATION_NEED_RECAPTCHA_LBL"
+			description="COM_TRIPBLOG_CONFIG_REGISTRATION_NEED_RECAPTCHA_DESC"
+			default="0">
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+	</fieldset>
+	<fieldset
+			name="permissions"
+			label="JCONFIG_PERMISSIONS_LABEL"
+			description="JCONFIG_PERMISSIONS_DESC"
+	>
+		<field
+				name="rules"
+				type="rules"
+				label="JCONFIG_PERMISSIONS_LABEL"
+				class="inputbox"
+				validate="rules"
+				filter="rules"
+				component="com_tripblog"
+				section="component"
+		/>
+	</fieldset>
+</config>

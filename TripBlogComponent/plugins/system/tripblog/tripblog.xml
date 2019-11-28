@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.8" type="plugin" group="system" method="upgrade">
+    <name>PLG_SYSTEM_TRIPBLOG</name>
+    <creationDate>Setpember 2019</creationDate>
+    <author>Ruslan Aliyev</author>
+    <authorEmail>ruslan_aliyev_@hotmail.com</authorEmail>
+    <authorUrl>https://github.com/atabegruslan</authorUrl>
+    <version>1.0.0</version>
+    <description>PLG_SYSTEM_TRIPBLOG_DESCRIPTION</description>
+
+    <files>
+        <folder>language</folder>
+        <filename plugin="tripblog">tripblog.php</filename>
+    </files>
+
+    <config>
+
+    </config>
+</extension>

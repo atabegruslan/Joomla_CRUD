@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="library" method="upgrade" version="2.5">
+    <name>LIB_TRIPBLOG</name>
+    <libraryname>tripblog</libraryname>
+    <creationDate>Setpember 2019</creationDate>
+    <author>Ruslan Aliyev</author>
+    <authorEmail>ruslan_aliyev_@hotmail.com</authorEmail>
+    <authorUrl>https://github.com/atabegruslan</authorUrl>
+    <version>1.0.0</version>
+    <description>LIB_TRIPBLOG_DESCRIPTION</description>
+    <files>
+        <folder>form</folder>
+        <folder>helper</folder>
+        <folder>layouts</folder>
+        <filename>library.php</filename>
+        <filename>composer.json</filename>
+    </files>
+</extension>

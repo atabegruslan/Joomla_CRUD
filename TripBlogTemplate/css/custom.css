@@ -1,0 +1,38 @@
+/*#preview_image {
+  width: 200px !important;
+  height: 200px !important;
+  padding: 25px !important;
+}
+
+#edit_image {
+  width: 200px !important;
+  height: 200px !important;
+  padding: 25px !important;
+}
+
+#preview_image img {
+  margin-left: 20px !important;
+  margin-top: 20px !important;
+}*/
+
+.icon-publish:before {
+	content: "\2714";
+	color: green;
+}
+
+.icon-unpublish:before {
+	content: "\2718";
+	color: red;
+}
+
+.icon-checkedout:before {
+	content: "\26D4";
+	color: red;
+}
+
+.btn-toolbar button {
+	font-size: 18px;
+	font-weight: bold;
+	width: 100px;
+	height: 50px;
+}

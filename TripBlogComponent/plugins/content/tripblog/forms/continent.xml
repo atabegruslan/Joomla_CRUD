@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fields name="params">
+        <fieldset name="basic">
+            <field
+                name="continent"
+                type="continent"
+                label="COM_TRIPBLOG_CONTINENT_LBL"
+                description="COM_TRIPBLOG_CONTINENT_DESC"
+                class="selectpicker"
+            />
+        </fieldset>
+    </fields>
+</form>
