@@ -8,16 +8,16 @@ http://ruslan-website.com/joomla/trip_blog/
 
 # Tutorials
 
-- https://www.youtube.com/playlist?list=PLtaXuX0nEZk_4XIvoPA7O0xT_sYRKnTos
-- https://docs.joomla.org/J2.5:Developing_a_MVC_Component/Introduction
-- https://docs.joomla.org/J3.x:Developing_an_MVC_Component/Introduction
+* https://www.youtube.com/playlist?list=PLtaXuX0nEZk_4XIvoPA7O0xT_sYRKnTos
+* https://docs.joomla.org/J2.5:Developing_a_MVC_Component/Introduction
+* https://docs.joomla.org/J3.x:Developing_an_MVC_Component/Introduction
  - https://github.com/Stevec4/Joomla-HelloWorld
 
-- https://github.com/joomlatools/joomlatools-todo
-- https://github.com/joomla-extensions/boilerplate
+* https://github.com/joomlatools/joomlatools-todo
+* https://github.com/joomla-extensions/boilerplate
 
-- https://api.joomla.org/cms-3/index.html
-- https://docs.joomla.org/Main_Page
+* https://api.joomla.org/cms-3/index.html
+* https://docs.joomla.org/Main_Page
 
 ## Other Tutorials
 
@@ -34,11 +34,11 @@ http://ruslan-website.com/joomla/trip_blog/
 
 ## Appearances
 
-- Module https://docs.joomla.org/J3.x:Creating_a_simple_module/Developing_a_Basic_Module
-- Wright template 
+* Module https://docs.joomla.org/J3.x:Creating_a_simple_module/Developing_a_Basic_Module
+* Wright template 
  - https://wright.joomlashack.com/
  - https://www.youtube.com/playlist?list=PLtaXuX0nEZk8NKMoEpaAQdb5MbRUHmMrF
-- Customize template, menus' and modules' positions 
+* Customize template, menus' and modules' positions 
  - https://www.balbooa.com/knowledgebase/32-documentation-faq-joomla/177-how-to-add-module-position-in-joomla
  - https://www.joomlart.com/forums/topic/how-to-create-a-new-module-position-updated/
  - In Wright, it's `js_wright/template.php`'s `<w:module>` or `<w:xxx>` tags.
@@ -64,8 +64,8 @@ http://ruslan-website.com/joomla/trip_blog/
 | J1.5  | J2.5  | J3.0+  |
 |---|---|---|
 | JController  | JControllerLegacy  | JControllerLegacy  |
-|   | - JControllerAdmin  | JControllerAdmin  |
-|   | - JControllerForm  | JControllerForm  |
+|   | - JControllerAdmin  | - JControllerAdmin  |
+|   | - JControllerForm  | - JControllerForm  |
 |   |   | JControllerBase (new MVC)  |
 
 The master controller of every component `controller.php` should extend `JControllerLegacy`.
@@ -79,11 +79,11 @@ https://docs.joomla.org/JController_and_its_subclass_usage_overview
 `JModelBase` is the base class for a model. It con tains some very basic functions. 
 You can use that, but be warned, you need to write a lot of own code if you use this own.
 
-- JModelLegacy (Abstract)
- - JModelForm (Abstract)
-  - JModelAdmin (Abstract)
- - JModelItem (Abstract)
- - JModelList
+* JModelLegacy (Abstract)
+ * JModelForm (Abstract)
+  * JModelAdmin (Abstract)
+ * JModelItem (Abstract)
+ * JModelList
 
 `JModelLegacy`, `JModelForm`, `JModelList`, `JModelItem` and `JModelAdmin` are the ones which are used the most,
 because they contain most of the functions we need in the CMS. 
