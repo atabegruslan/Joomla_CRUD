@@ -13,8 +13,10 @@ http://ruslan-website.com/joomla/trip_blog/
 * https://docs.joomla.org/J3.x:Developing_an_MVC_Component/Introduction
   * https://github.com/Stevec4/Joomla-HelloWorld
 
+
 * https://github.com/joomlatools/joomlatools-todo
 * https://github.com/joomla-extensions/boilerplate
+
 
 * https://api.joomla.org/cms-3/index.html
 * https://docs.joomla.org/Main_Page
@@ -36,12 +38,12 @@ http://ruslan-website.com/joomla/trip_blog/
 
 * Module https://docs.joomla.org/J3.x:Creating_a_simple_module/Developing_a_Basic_Module
 * Wright template 
- * https://wright.joomlashack.com/
- * https://www.youtube.com/playlist?list=PLtaXuX0nEZk8NKMoEpaAQdb5MbRUHmMrF
+  * https://wright.joomlashack.com/
+  * https://www.youtube.com/playlist?list=PLtaXuX0nEZk8NKMoEpaAQdb5MbRUHmMrF
 * Customize template, menus' and modules' positions 
- * https://www.balbooa.com/knowledgebase/32-documentation-faq-joomla/177-how-to-add-module-position-in-joomla
- * https://www.joomlart.com/forums/topic/how-to-create-a-new-module-position-updated/
- * In Wright, it's `js_wright/template.php`'s `<w:module>` or `<w:xxx>` tags.
+  * https://www.balbooa.com/knowledgebase/32-documentation-faq-joomla/177-how-to-add-module-position-in-joomla
+  * https://www.joomlart.com/forums/topic/how-to-create-a-new-module-position-updated/
+  * In Wright, it's `js_wright/template.php`'s `<w:module>` or `<w:xxx>` tags.
 
 ## Google map
 
