@@ -11,7 +11,7 @@ http://ruslan-website.com/joomla/trip_blog/
 * https://www.youtube.com/playlist?list=PLtaXuX0nEZk_4XIvoPA7O0xT_sYRKnTos
 * https://docs.joomla.org/J2.5:Developing_a_MVC_Component/Introduction
 * https://docs.joomla.org/J3.x:Developing_an_MVC_Component/Introduction
- * https://github.com/Stevec4/Joomla-HelloWorld
+  * https://github.com/Stevec4/Joomla-HelloWorld
 
 * https://github.com/joomlatools/joomlatools-todo
 * https://github.com/joomla-extensions/boilerplate
