@@ -13,10 +13,8 @@ http://ruslan-website.com/joomla/trip_blog/
 * https://docs.joomla.org/J3.x:Developing_an_MVC_Component/Introduction
   * https://github.com/Stevec4/Joomla-HelloWorld
 
-
 * https://github.com/joomlatools/joomlatools-todo
 * https://github.com/joomla-extensions/boilerplate
-
 
 * https://api.joomla.org/cms-3/index.html
 * https://docs.joomla.org/Main_Page
@@ -82,10 +80,10 @@ https://docs.joomla.org/JController_and_its_subclass_usage_overview
 You can use that, but be warned, you need to write a lot of own code if you use this own.
 
 * JModelLegacy (Abstract)
- * JModelForm (Abstract)
-  * JModelAdmin (Abstract)
- * JModelItem (Abstract)
- * JModelList
+  * JModelForm (Abstract)
+    * JModelAdmin (Abstract)
+  * JModelItem (Abstract)
+  * JModelList
 
 `JModelLegacy`, `JModelForm`, `JModelList`, `JModelItem` and `JModelAdmin` are the ones which are used the most,
 because they contain most of the functions we need in the CMS. 
