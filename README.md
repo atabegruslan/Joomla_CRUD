@@ -203,7 +203,7 @@ Doing `extract($displayData)` will extract `$displayData` into PHP variables, eg
 ## To Do
 
 - Maps (Ref: https://jsfiddle.net/atabegaslan/3pzzpt7o/)
-- Google ReCaptcha for user registration
+- Google ReCaptcha for user registration (Ref: https://github.com/atabegruslan/Google_Recaptchas)
 - Social media logins
 - Web Servives (Ref: https://github.com/redCOMPONENT-COM/redCORE/tree/develop/extensions/libraries/redcore/api)
 - Include and use SEF and Logman plugins
