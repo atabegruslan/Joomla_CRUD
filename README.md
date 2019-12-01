@@ -198,12 +198,17 @@ Inside the `layouts/xxx/yyy.php` file, `array('key' => 'data')` becomes `$displa
 
 Doing `extract($displayData)` will extract `$displayData` into PHP variables, eg `$key`.
 
+## Google ReCaptcha
+
+- https://github.com/atabegruslan/Google_Recaptchas
+- https://docs.joomla.org/J3.x:Google_ReCaptcha
+
 ---
 
 ## To Do
 
 - Maps (Ref: https://jsfiddle.net/atabegaslan/3pzzpt7o/)
-- Google ReCaptcha for user registration (Ref: https://github.com/atabegruslan/Google_Recaptchas)
+- Google ReCaptcha for user registration
 - Social media logins
 - Web Servives (Ref: https://github.com/redCOMPONENT-COM/redCORE/tree/develop/extensions/libraries/redcore/api)
 - Include and use SEF and Logman plugins
