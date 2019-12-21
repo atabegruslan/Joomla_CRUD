@@ -19,6 +19,11 @@ http://ruslan-website.com/joomla/trip_blog/
 * https://api.joomla.org/cms-3/index.html
 * https://docs.joomla.org/Main_Page
 
+* https://www.youtube.com/playlist?list=PLHamcmcrmHeAr67Ti8YY1GKNE2F0wRiHg
+* https://www.youtube.com/playlist?list=PLhQIfRNfwAodg8qaAPCnGKFB196ooXCvo
+* https://www.youtube.com/playlist?list=PLzio09PZm6Tshl1pasGyFwWrm-JPWmjm2
+* https://www.youtube.com/playlist?list=PL0w1OO0UFKLbK_k8ihGUg-QayNjKV0ioi
+
 ## Other Tutorials
 
 - Frontend Joomla toolbar https://docs.joomla.org/J3.x:Using_the_JToolbar_class_in_the_frontend
@@ -48,6 +53,8 @@ http://ruslan-website.com/joomla/trip_blog/
 - https://docs.joomla.org/J3.x:Developing_an_MVC_Component/Adding_a_Map
 - https://developers.google.com/maps/documentation/javascript/tutorial
 - https://developers.google.com/maps/documentation/javascript/events
+- https://developers.google.com/maps/documentation/javascript/get-api-key
+- https://jsfiddle.net/atabegaslan/3pzzpt7o/
 
 # Notes
 
@@ -207,9 +214,11 @@ Doing `extract($displayData)` will extract `$displayData` into PHP variables, eg
 
 ## To Do
 
-- Maps (Ref: https://jsfiddle.net/atabegaslan/3pzzpt7o/)
 - Google ReCaptcha for user registration
+- Modules
 - Social media logins
-- Web Servives (Ref: https://github.com/redCOMPONENT-COM/redCORE/tree/develop/extensions/libraries/redcore/api)
+- Web Servives 
+  - https://www.youtube.com/playlist?list=PLkUs_h4ayxR-XTdhN-2KSF_JOc3V-MlNm
+  - Ref: https://github.com/redCOMPONENT-COM/redCORE/tree/develop/extensions/libraries/redcore/api
 - Include and use SEF and Logman plugins
 - Use chosen.js and footable.js
