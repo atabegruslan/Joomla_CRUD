@@ -58,8 +58,8 @@ class PlgSystemTripblog extends CMSPlugin
             // unset($document->_scripts[Uri::root(true) . '/media/system/js/html5fallback-uncompressed.js']);
             //unset($document->_scripts[Uri::root(true) . '/media/jui/js/html5-uncompressed.js']);
 
-            $document->addScript(Uri::root(true) . '/media/jui/js/jquery.js');
-            $document->addScript(Uri::root(true) . '/media/jui/js/bootstrap.js');
+            // $document->addScript(Uri::root(true) . '/media/jui/js/jquery.js');
+            // $document->addScript(Uri::root(true) . '/media/jui/js/bootstrap.js');
         }
 
         $document->addStyleSheet(Uri::root() . 'media/com_tripblog/css/tripblog.css');
